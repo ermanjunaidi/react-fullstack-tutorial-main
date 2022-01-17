@@ -10,7 +10,7 @@ const Header = () => {
     <div className="main-header">
       <div className="main-header__inner">
         <div className="main-header__left">
-          <Link to="/">ToDo List</Link>
+          <Link to="/">Belajar Membuat List</Link>
         </div>
 
         <div className="main-header__right">
