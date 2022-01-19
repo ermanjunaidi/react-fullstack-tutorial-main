@@ -116,7 +116,7 @@ const AuthBox = ({ register }) => {
           <div className="auth__footer">
             {Object.keys(errors).length > 0 && (
               <p className="auth__error">
-                {register ? "You have some validation errors" : errors.error}
+                {register ? "Validasi Salah" : errors.error}
               </p>
             )}
 

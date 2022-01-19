@@ -10,7 +10,7 @@ const Layout = () => {
 
   return fetchingUser ? (
     <div className="loading">
-      <h1>Loading</h1>
+      <h1>Loading . . . .</h1>
     </div>
   ) : (
     <BrowserRouter>
